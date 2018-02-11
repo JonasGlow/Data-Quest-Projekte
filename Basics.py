@@ -3,7 +3,7 @@ f = open("US_births_1994-2003_CDC_NCHS.csv", "r").read()
 rows = f.split("\n")
 print(rows[0:11]) # Test-Ausgabe
 
-# Allgeime Funktion um Dateien einzulesen und dabei die Header Row zu entfernen und die Felder richtig umzuwandeln
+# Allgemeine Funktion um Dateien einzulesen und dabei die Header Row zu entfernen und die Felder richtig umzuwandeln
 def read_csv(file):
     string_data = open(file).read().split("\n")
     string_list = string_data[1:len(string_data)-1]
