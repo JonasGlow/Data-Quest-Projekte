@@ -50,7 +50,7 @@ cdc_day_births = dow_births(cdc_list)
 print(cdc_day_births) # Test-Ausgabe
 
 
-# Allgeime Funktion um die Geburten für die übergebene Column zu berechnen
+# Allgemeine Funktion um die Geburten für die übergebene Column zu berechnen
 def calc_counts(data, column):
     number_of_births = {}
     for row in data:
