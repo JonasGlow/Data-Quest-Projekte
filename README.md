@@ -1,1 +1,1 @@
-Kleine Programme vom Python lernen
+Kleine Projekte vom Python lernen
